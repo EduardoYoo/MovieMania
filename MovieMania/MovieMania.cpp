@@ -85,6 +85,7 @@ _/__/___|_(___/__|/__/___(___ _____/__/___|_(___(_/___/_/___(___(_)";
 	std::this_thread::sleep_for(std::chrono::seconds(3));
 	system("cls");
 }
+//Reads the csv file and inserts Movies object into Map and BST
 void insertFunction() {
 	ifstream movieInfo("IMDb_movies.csv");
 	int i = 0;
